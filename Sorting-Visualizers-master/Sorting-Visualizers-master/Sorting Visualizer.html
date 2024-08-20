@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0119)file:///C:/Users/tanma/OneDrive/Desktop/mini%20project/Sorting-Visualizers-master/Sorting-Visualizers-master/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="./Sorting Visualizer_files/style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="array-inputs">
+                <p>Size of the array:</p>
+                <input id="a_size" type="range" min="20" max="150" step="1" value="80">
+                <p>Run time of algorithm:</p>
+                <input id="a_speed" type="range" min="1" max="5" step="1" value="4">
+                <button id="a_generate">Generate New Array!</button>
+            </div>
+
+            <div class="header_right">
+                <p class="nav-heading">Sorting visualizer</p>
+
+                <div class="algos">
+                    <button>Bubble</button>
+                    <button>Selection</button>
+                    <button>Insertion</button>
+                    <button>Merge</button>
+                    <button>Quick</button>
+                    <button style="margin-right: 0px;">Heap</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="Info_Cont1">
+            <p>This is First Container</p>
+        </div>
+
+        <div id="array_container" style="flex-direction: row;"><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 50%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 60%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 31%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 45%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 35%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 58%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 43%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 21%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 39%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 29%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 16%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 66%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 38%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 29%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 30%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 72%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 49%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 61%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 32%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 12%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 10%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 55%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 64%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 50%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 59%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 50%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 48%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 20%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 17%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 50%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 22%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 38%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 54%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 11%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 47%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 34%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 50%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 74%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 21%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 30%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 63%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 46%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 70%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 52%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 30%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 70%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 40%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 25%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 68%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 70%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 36%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 29%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 20%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 39%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 54%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 18%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 16%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 40%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 13%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 11%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 11%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 41%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 31%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 71%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 44%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 63%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 15%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 56%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 62%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 27%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 32%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 58%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 33%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 36%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 47%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 58%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 21%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 49%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 26%;"></div><div style="margin: 0% 0.1%; background-color: blue; width: 1.05%; height: 72%;"></div></div>
+
+        <div id="Info_Cont2">
+            <p>This is Second Container</p>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="./Sorting Visualizer_files/main.js.download"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./Sorting Visualizer_files/visualizations.js.download"></script>  <!--This should be loaded after main.js-->
+
+    <script src="./Sorting Visualizer_files/bubble_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/selection_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/insertion_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/merge_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/quick_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/heap_sort.js.download"></script>
+
+
+
+
+</body><!--
+    *****************
+    DONE BY:-   TUMMALA KETHAN
+    E-MAIL:-    tummala.kethan@gmail.com
+    *****************
+--></html>
